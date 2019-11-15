@@ -4,7 +4,7 @@ I used [keras-retinanet](https://github.com/fizyr/keras-retinanet) to fine tune 
 ## Requirements
 - Everything required by [keras-retinanet](https://github.com/fizyr/keras-retinanet)
 - TQDM
-- imgaug
+- imgaug (pip install error occurs when install shapely=1.6.4, use 'conda install shapely', then 'pip install imgaug')
 - sklearn
 
 ## Results
